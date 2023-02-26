@@ -5,10 +5,19 @@
     --grayish-blue: hsl(212, 23%, 69%);
     --desaturated-dark-blue: hsl(214, 17%, 51%);
     --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --white-bg: white;
 
     --main-font-family: 'Manrope', sans-serif;
     --font-weight-500: 500;
     --font-weight-500: 700;
+}
+
+.container-flex{
+    display:flex;
+}
+
+.container-flex-direction {
+    flex-direction: column;
 }
 
 * {
