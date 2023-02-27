@@ -66,6 +66,7 @@ body {
     border-bottom-right-radius: 20px;
     padding:5%;
     row-gap: 20px;
+    box-shadow: 0px 10px 40px var(--grayish-blue);
 }
 
 .article-heading {
