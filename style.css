@@ -99,13 +99,18 @@ body {
     width:inherit;
 }
 
+.blog-signature {
+    row-gap: 5px;
+}
+
 .author-name {
     font-weight: var(--font-weight-500);
     color: var(--very-dark-grayish-blue)
 }
 
 .published-date {
-    color: var(--grayish-blue)
+    color: var(--grayish-blue);
+    word-spacing: 0px;
 }
 
 .share-btn {
