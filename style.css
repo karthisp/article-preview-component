@@ -69,3 +69,47 @@ body {
     padding:5%;
     row-gap: 20px;
 }
+
+.article-paragraph {
+    color: var(--desaturated-dark-blue)
+}
+
+.article-footer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info {
+    column-gap: 20px;
+}
+
+.author-image-container {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.author-image {
+    object-fit: fill;
+    height:inherit;
+    width:inherit;
+}
+
+.author-name {
+    font-weight: var(--font-weight-500);
+    color: var(--very-dark-grayish-blue)
+}
+
+.published-date {
+    color: var(--grayish-blue)
+}
+
+.share-btn {
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background-color: var(--main-bg-color);
+    padding-top:6px;
+    padding-left:10px;
+}
