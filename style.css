@@ -47,13 +47,11 @@ body {
 
 .article-container {
     max-width:52%;
-    height: 38%;
     border-radius: 20px;
 }
 
 .article-image-container {
     flex: 0 0 40%;
-    height:100%;
     background-image: url('./images/drawers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
