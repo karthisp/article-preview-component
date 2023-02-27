@@ -120,4 +120,5 @@ body {
     background-color: var(--main-bg-color);
     padding-top:6px;
     padding-left:10px;
+    cursor: pointer;
 }
