@@ -44,3 +44,17 @@ body {
 .hide-element {
     display:none;
 }
+
+.article-container {
+    max-width:52%;
+    height: 38%
+}
+
+.article-image-container {
+    flex: 0 0 40%;
+}
+
+.article-image {
+    width:100%;
+    height:inherit;
+}
