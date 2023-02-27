@@ -47,14 +47,25 @@ body {
 
 .article-container {
     max-width:52%;
-    height: 38%
+    height: 38%;
+    border-radius: 20px;
 }
 
 .article-image-container {
     flex: 0 0 40%;
+    height:100%;
+    background-image: url('./images/drawers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;    
 }
 
-.article-image {
-    width:100%;
-    height:inherit;
+.article-section {
+    background-color: var(--white-bg);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:5%;
+    row-gap: 20px;
 }
