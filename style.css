@@ -46,7 +46,7 @@ body {
 }
 
 .article-container {
-    max-width:52%;
+    max-width:55rem;
     border-radius: 20px;
 }
 
@@ -65,17 +65,18 @@ body {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding:5%;
-    row-gap: 20px;
+    row-gap: 15px;
     box-shadow: 0px 10px 40px var(--grayish-blue);
 }
 
 .article-heading {
     color: var(--very-dark-grayish-blue);
-    font-size:26px;
+    font-size:22px;
 }
 
 .article-paragraph {
-    color: var(--desaturated-dark-blue)
+    color: var(--desaturated-dark-blue);
+    font-size: 14px;
 }
 
 .article-footer {
