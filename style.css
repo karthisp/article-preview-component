@@ -50,6 +50,12 @@ body {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 740px) {
+    .article-container {
+        flex-direction: column;
+    }
+}
+
 .article-image-container {
     flex: 0 0 40%;
     background-image: url('./images/drawers.jpg');
