@@ -169,3 +169,11 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.pointing-arrow {
+    width:0;
+    height:0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top:15ps solid var(--very-dark-grayish-blue);
+}
