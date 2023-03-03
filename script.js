@@ -1,16 +1,20 @@
 const shareBtn = document.querySelector('.share-btn');
 const shareSection = document.querySelector('.media-platforms');
-const shareArrow = document.querySelector('.pointing-arrow');
+let shareArrow
+
+if(window.innerWidth > 740) {
+    shareArrow = document.querySelector('.pointing-arrow');
+}
 
 function showElement(elementsList) {
     elementsList.forEach(element => {
-        element.classList.add('hide-element')
+        if(element) element.classList.add('hide-element')
     });
 }
 
 function removeElement(elementsList) {
     elementsList.forEach(element => {
-        element.classList.remove('hide-element')
+        if(element) element.classList.remove('hide-element')
     });
 }
 
