@@ -54,6 +54,7 @@ body {
 .article-container {
     max-width:55rem;
     border-radius: 20px;
+    position:relative;
 }
 
 @media screen and (max-width: 740px) {
@@ -198,8 +199,4 @@ body {
         position:static;
         width:100%;
     }
-}
-
-.media-platforms-mobile {
-    display: none;
 }
